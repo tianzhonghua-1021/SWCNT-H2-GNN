@@ -1,0 +1,52 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+conda-env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Generated training outputs
+results/**
+!results/examples/
+!results/examples/**
+*.log
+
+# DeepChem / model caches and checkpoints
+dmpnn_dataset_cache/
+**/dmpnn_dataset_cache/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Heavy manuscript/build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.spl
+
+# Temporary images; keep curated examples under results/examples
+*.tmp
+~$*
